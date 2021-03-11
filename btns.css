@@ -1,0 +1,128 @@
+.download-btn {
+  position: absolute !important;
+  right: 10px !important;
+  top: 10px !important;
+  z-index: 10000 !important;
+  width: 90px !important;
+  height: 30px !important;
+  line-height: 30px !important;
+  background: #10d321 !important;
+  color: #fff !important;
+  cursor: pointer !important;
+  outline: none !important;
+  border: none !important;
+  border-radius: 0 !important;
+  -webkit-transition: all .3s !important;
+  transition: all .3s !important;
+  text-align: center;
+  font-size: 12px !important;
+}
+
+.download-btn .download-btn-dropdown {
+  position: absolute !important;
+  top: calc(100%) !important;
+  right: 0 !important;
+  height: 0 !important;
+  overflow: hidden !important;
+  -webkit-transition: all .3s !important;
+  transition: all .3s !important;
+}
+
+.download-btn .download-btn-dropdown .download-btn-dropdown-item {
+  background: #10d321 !important;
+  color: #fff !important;
+  width: 90px !important;
+  text-align: center !important;
+  line-height: 25px !important;
+}
+
+.download-btn .download-btn-dropdown .download-btn-dropdown-item:hover {
+  -webkit-transition: all .3s !important;
+  transition: all .3s !important;
+  cursor: pointer !important;
+  background: #0da319 !important;
+}
+
+.download-btn .loader {
+  display: none !important;
+}
+
+.download-btn:hover .download-btn-dropdown {
+  height: 100px !important;
+}
+
+.download-btn.loading span, .download-btn.loading .download-btn-dropdown-item {
+  display: none !important;
+}
+
+.download-btn.loading .loader {
+  display: block !important;
+}
+
+.video_box_wrap .download-btn {
+  left: 10px !important;
+}
+
+._53j5 .download-btn {
+  display: none;
+}
+
+._53j5:hover .download-btn {
+  display: block;
+}
+
+article.QBXjJ .download-btn, .v1Nh3 .download-btn {
+  display: none;
+}
+
+article.QBXjJ:hover .download-btn, .v1Nh3:hover .download-btn {
+  display: block;
+}
+
+.player_outro_area .download-btn {
+  /*display: none;*/
+  left: 10px;
+}
+
+.player_outro_area:hover .download-btn {
+  display: block;
+}
+
+.Player:hover .download-btn {
+  display: block;
+}
+
+.tweet .download-btn {
+  display: none;
+}
+
+.tweet:hover .download-btn {
+  display: block;
+}
+
+.wall_post_cont .download-btn {
+  display: none;
+  left: 30px;
+  top: 50px !important;
+}
+
+.wall_post_cont:hover .download-btn {
+  display: block;
+}
+
+.html5-video-player .download-btn {
+  display: none;
+}
+
+.html5-video-player:hover .download-btn {
+  display: block;
+}
+
+._post_content .download-btn {
+  display: none;
+  left: 30px;
+  top: 120px !important;
+}
+._post_content:hover .download-btn {
+  display: block;
+}
